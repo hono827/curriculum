@@ -1,0 +1,35 @@
+/* タブレット, 767pxまで */
+@media screen and (max-width: 767px){
+    header {
+        width: 250px;
+    }
+    .right {
+        width: 100px;
+    }
+    footer {
+        width: 250px;
+    }
+}
+/* スマホ、479pxまで */
+@media screen and (max-width: 479px){
+    .wrapper {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    header {
+        width: 150px;
+    }
+    .left {
+        width: 150px;
+        float: none;
+    }
+    .right {
+        width: 150px;
+        float: none;
+    }
+    footer {
+        width: 150px;       
+    }
+     
+}
